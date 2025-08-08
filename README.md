@@ -11,5 +11,5 @@ A  JavaScript app that fetches a random motivational quote from a public API.
 ## 🛠 Run Locally
 ```bash
 git clone <repo_url>
-cd daily-quotes-app
+cd Version-Controlled
 
