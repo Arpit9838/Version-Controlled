@@ -1,45 +1,29 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background: #f0f8ff;
-    color: #333;
-    margin: 0;
+    background-color: #f4f4f4;
+    padding: 50px;
 }
 
-header {
-    background: #4cafef;
-    color: white;
-    padding: 1rem 0;
-}
-
-#quote-box {
-    margin: 2rem auto;
-    padding: 1.5rem;
+.container {
     background: white;
-    max-width: 500px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+    max-width: 400px;
+    margin: auto;
 }
 
-#new-quote {
-    background: #4cafef;
-    border: none;
-    padding: 0.7rem 1.5rem;
-    font-size: 1rem;
+button {
+    background-color: #007BFF;
     color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 15px;
     border-radius: 5px;
     cursor: pointer;
 }
 
-#new-quote:hover {
-    background: #3b9fd6;
-}
-
-footer {
-    background: #4cafef;
-    color: white;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+button:hover {
+    background-color: #0056b3;
 }
